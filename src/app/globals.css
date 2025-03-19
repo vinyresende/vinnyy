@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: #1f242d;
+  --color-background-2: #191d24;
+  --color-highlight: #6C3BAA;
+
+  --font-inknut-antiqua: "Inknut Antiqua", serif;
+
+  --bg-noise: url('/noise.svg');
+
+  --shadow-neon: 0 0 50px 5px;
+}
+
+* {
+  outline: none;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+a {
+  padding: 0;
+  margin: 0;
+}
