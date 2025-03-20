@@ -43,7 +43,7 @@ export default function Contact() {
 
                             <li>
                                 <SiLinkedin />
-                                <Link href="www.linkedin.com/in/viny-resende" target="_blank">
+                                <Link href="https://www.linkedin.com/in/viny-resende" target="_blank">
                                     <span>Vinícius Resende</span>
                                 </Link>
                             </li>
