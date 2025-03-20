@@ -1,9 +1,9 @@
-interface props {
+interface Props {
     icon: React.ReactNode
     text: string
 }
 
-export default function Card({ icon, text }: props) {
+export default function Card({ icon, text }: Props) {
     return (
         <div
             className="bg-background flex flex-col items-center transition-all duration-200

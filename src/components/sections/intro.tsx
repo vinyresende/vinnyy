@@ -27,7 +27,7 @@ export default function Intro() {
                     <span className="text-highlight text-[24px]">Web Developer</span>
                 </h1>
 
-                <p className="text-justify">Com 3 anos de experiência em desenvolvimento web, dedico-me a criar aplicações impactantes e reativas, atuando tanto no <span className="text-highlight">back-end</span> quanto no <span className="text-highlight">front-end</span>. Minha paixão está em transformar ideias em realidade, especialmente com o poder do <span className="text-highlight">Next.js</span>, garantindo experiências dinâmicas e de alto desempenho.</p>
+                <p className="text-justify">Com 3 anos de experiência em desenvolvimento, dedico-me a criar aplicações impactantes e reativas, atuando tanto no <span className="text-highlight">back-end</span> quanto no <span className="text-highlight">front-end</span>. Minha paixão está em transformar ideias em realidade, especialmente com o poder do <span className="text-highlight">Next.js</span>, garantindo experiências dinâmicas e de alto desempenho.</p>
 
                 <div
                     className="h-10 flex items-center text-highlight

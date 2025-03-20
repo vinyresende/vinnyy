@@ -18,7 +18,7 @@ export default function Contact() {
                     max-md:px-0 max-md:flex max-md:justify-center"
                 >
                     <h2
-                        className="font-bold text-highlight text-2xl ml-20 mb-10
+                        className="font-bold text-highlight text-2xl mx-3 mb-10
                         max-md:mx-0"
                     >
                         Contato
@@ -62,8 +62,10 @@ export default function Contact() {
                         </ul>
                     </div>
 
-                    <div className="flex flex-col items-center col-span-2
-                    max-md:grid-cols-1">
+                    <div
+                        className="flex flex-col items-center col-span-2
+                        max-md:grid-cols-1"
+                    >
                         <ContactForm />
                     </div>
 

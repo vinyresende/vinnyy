@@ -1,8 +1,9 @@
-interface props {
-    children?: React.ReactNode
+interface Props {
+    children?: React.ReactNode,
+    [rest: string]: any
 }
 
-export default function SubmitButton({ children }: props) {
+export default function SubmitButton({ children }: Props) {
     return (
         <button
             className="bg-transparent transition-all duration-[150ms] cursor-pointer

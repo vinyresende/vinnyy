@@ -1,8 +1,8 @@
-interface props {
+interface Props {
     children?: React.ReactNode
 }
 
-export default function GenericButton({ children }: props) {
+export default function GenericButton({ children }: Props) {
     return (
         <button
             className="bg-transparent transition-all duration-500 cursor-pointer
