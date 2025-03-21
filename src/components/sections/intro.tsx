@@ -24,7 +24,7 @@ export default function Intro() {
 
                 <h1 className="font-bold text-[28px] gap-2">
                     <span className="leading-10">Vinícius Resende</span><br />
-                    <span className="text-highlight text-[24px]">Web Developer</span>
+                    <span className="text-highlight text-[24px]">Full-Stack Developer</span>
                 </h1>
 
                 <p className="text-justify">Com 3 anos de experiência em desenvolvimento, dedico-me a criar aplicações impactantes e reativas, atuando tanto no <span className="text-highlight">back-end</span> quanto no <span className="text-highlight">front-end</span>. Minha paixão está em transformar ideias em realidade, especialmente com o poder do <span className="text-highlight">Next.js</span>, garantindo experiências dinâmicas e de alto desempenho.</p>
@@ -47,7 +47,7 @@ export default function Intro() {
                         <TiSocialLinkedinCircular />
                     </Link>
 
-                    <Link href="#contato">
+                    <Link href="#contact">
                         <BiLogoDiscord />
                     </Link>
                 </div>
@@ -56,7 +56,7 @@ export default function Intro() {
 
             <div
                 className="flex items-center justify-end pr-5
-                max-md:pr-0"
+                max-md:justify-center max-md:pr-0"
             >
                 <TextSphere />
             </div>

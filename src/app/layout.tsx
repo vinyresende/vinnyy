@@ -5,7 +5,7 @@ import Header from "@/components/header/header"
 
 export const metadata: Metadata = {
 	title: "Dev Full-Stack | Vinnyy",
-	description: "Portifólio",
+	description: "Criação de sites, automações, bots e muito mais!",
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 	return (
 		<html lang="pt-BR">
 			<body
-				className={`bg-background bg-[url(/noise.svg)] bg-noise
+				className={`bg-background bg-[url(/noise.svg)] bg-cover bg-fixed
 				max-w-screen min-h-screenflex flex-col overflow-x-hidden
 				text-white leading-6 font-inknut-antiqua antialiased`}
 			>

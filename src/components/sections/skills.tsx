@@ -31,17 +31,17 @@ export default function Skills() {
 
                 <div 
                     className="w-full max-w-7xl px-5
-                    max-md:flex max-md:justify-center max-md:px-0"
+                    max-lg:flex max-lg:justify-center max-lg:px-0"
                 >
                     <h2
                         className="font-bold text-2xl text-highlight ml-20 mb-10
-                        max-md:mx-0"
+                        max-lg:mx-0"
                     >
                         Skills principais
                     </h2>
                 </div>
 
-                <div className="grid grid-cols-5 gap-5 max-md:grid-cols-3">
+                <div className="grid grid-cols-5 gap-5 max-lg:grid-cols-3">
 
                     <Card
                         icon={(<IoLogoWordpress />)}

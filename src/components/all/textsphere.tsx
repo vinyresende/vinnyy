@@ -26,8 +26,8 @@ export default function TextSphere() {
 
     const options: TagCloudOptions = {
         radius: 200,
-        initSpeed: "slow",
-        maxSpeed: "slow",
+        initSpeed: "normal",
+        maxSpeed: "normal",
         keep: true
     }
 
