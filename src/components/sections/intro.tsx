@@ -33,7 +33,7 @@ export default function Intro() {
                     className="h-10 flex items-center text-highlight
 					text-4xl [&>svg]:cursor-pointer gap-2 mt-3"
                 >
-                    <Link href="#contato">
+                    <Link href="#contact">
                         <GenericButton>
                             <span>Contato</span>
                         </GenericButton>
