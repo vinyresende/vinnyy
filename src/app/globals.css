@@ -8,7 +8,7 @@
 
   --font-inknut-antiqua: "Inknut Antiqua", serif;
 
-  --shadow-neon: 0 0 50px 5px;
+  --shadow-neon: 0 0 50px -5px;
 }
 
 * {
