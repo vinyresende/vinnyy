@@ -16,7 +16,7 @@ export default function RootLayout({
 	return (
 		<html lang="pt-BR">
 			<body
-				className={`bg-background bg-[url(/noise.svg)] bg-cover
+				className={`bg-background bg-[url(/noise.svg)]
 				max-w-screen min-h-screenflex flex-col overflow-x-hidden
 				text-white leading-6 font-inknut-antiqua antialiased`}
 			>
