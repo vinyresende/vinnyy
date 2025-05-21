@@ -5,8 +5,8 @@ import GenericButton from "@/components/all/genericbutton"
 import { BiLogoDiscord } from "react-icons/bi"
 
 import {
-	TiSocialLinkedinCircular,
-	TiSocialGithubCircular
+    TiSocialLinkedinCircular,
+    TiSocialGithubCircular
 } from "react-icons/ti"
 
 export default function Intro() {
@@ -27,7 +27,9 @@ export default function Intro() {
                     <span className="text-highlight text-[24px]">Full-Stack Developer</span>
                 </h1>
 
-                <p className="text-justify">Com 3 anos de experiência em desenvolvimento, dedico-me a criar aplicações impactantes e reativas, atuando tanto no <span className="text-highlight">back-end</span> quanto no <span className="text-highlight">front-end</span>. Minha paixão está em transformar ideias em realidade, especialmente com o poder do <span className="text-highlight">Next.js</span>, garantindo experiências dinâmicas e de alto desempenho.</p>
+                <span>Criação de Sites, Apps, Automações e muito mais</span>
+
+                <p className="text-justify">Me dedico a criar aplicações incríveis e dinâmicas, trabalhando tanto no <span className="text-highlight">back-end</span> quanto no <span className="text-highlight">front-end</span>. Amo transformar ideias em realidade, especialmente com <span className="text-highlight">Next.js</span>, criando experiências fluidas e de alto desempenho.</p>
 
                 <div
                     className="h-10 flex items-center text-highlight
@@ -38,6 +40,12 @@ export default function Intro() {
                             <span>Contato</span>
                         </GenericButton>
                     </Link>
+
+                    <a href="/curriculo.pdf" download="curriculo.pdf">
+                        <GenericButton>
+                            <span>Download CV</span>
+                        </GenericButton>
+                    </a>
 
                     <Link href="https://github.com/vinyresende" target="_blank">
                         <TiSocialGithubCircular />
