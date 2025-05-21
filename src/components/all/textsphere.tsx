@@ -6,7 +6,7 @@ import TagCloud, { TagCloudOptions } from "TagCloud"
 export default function TextSphere() {
     const container: string = ".text-sphere"
     const texts: string[] = [
-        "html",
+        "HTML",
         "CSS",
         "Node.js",
         "JavaScript",
@@ -18,7 +18,7 @@ export default function TextSphere() {
         "Python",
         "Selenium",
         "Git",
-        "Github",
+        "GitHub",
         "MySQL",
         "Sequelize",
         "WordPress"
