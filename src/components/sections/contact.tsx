@@ -11,22 +11,24 @@ import { MdEmail } from "react-icons/md"
 
 export default function Contact() {
     return (
-        <section id="contact" className="flex justify-center py-20 max-md:max-w-screen">
+        <section id="contact" className="bg-[url(/noise.svg)] w-full flex justify-center py-20 max-md:max-w-screen">
             <div className="w-full max-w-7xl flex flex-col items-center px-10 max-lg:px-0">
 
                 <div className="w-full px-5
                     max-md:px-0 max-lg:flex max-lg:justify-center"
                 >
                     <h2
-                        className="font-bold text-highlight text-2xl mx-3 mb-10
+                        className="font-bold text-highlight text-2xl ml-20 mb-10
                         max-md:mx-0"
                     >
                         Contato
                     </h2>
                 </div>
 
-                <div className="grid grid-cols-3 gap-3 px-10
-                max-lg:grid-cols-1 max-md:gap-10 max-lg:px-0">
+                <div
+                    className="grid grid-cols-3 gap-3 px-10
+                    max-lg:grid-cols-1 max-md:gap-10 max-lg:px-0"
+                >
 
                     <div className="max-md:flex max-md:justify-center">
                         <ul
@@ -35,7 +37,7 @@ export default function Contact() {
                             max-md:flex max-md:flex-col max-md:justify-center"
                         >
                             <li>
-                                <MdEmail /> 
+                                <MdEmail />
                                 <Link href="mailto:viniciusvresendeo@gmail.com" target="_blank">
                                     <span>viniciusvresendeo<wbr />@gmail.com</span>
                                 </Link>

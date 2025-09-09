@@ -1,4 +1,5 @@
-import Card from "../all/card"
+import SkillCard from "../all/skillcard"
+import InfiniteSlider from "../all/infiniteslider"
 
 import { IoLogoWordpress } from "react-icons/io"
 import { BiLogoTypescript } from "react-icons/bi"
@@ -41,70 +42,68 @@ export default function Skills() {
                     </h2>
                 </div>
 
-                <div className="grid grid-cols-5 gap-5 max-lg:grid-cols-3">
-
-                    <Card
+                <InfiniteSlider>
+                    <SkillCard
                         icon={(<IoLogoWordpress />)}
                         text="WordPress"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiJavascript />)}
                         text="JavaScript"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiHtml5 />)}
                         text="HTML5"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiCss3 />)}
                         text="CSS3"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiNodejsSmall />)}
                         text="Node.js"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiReact />)}
                         text="React"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<SiNextdotjs />)}
                         text="Next.js"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<SiElectron />)}
                         text="Electron"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<SiExpress />)}
                         text="Express"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<BiLogoTypescript />)}
                         text="TypeScript"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiPython />)}
                         text="Python3"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<SiQt />)}
                         text="PyQt5"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<SiSelenium />)}
                         text="Selenium"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<DiMysql />)}
                         text="MySQL"
                     />
-                    <Card
+                    <SkillCard
                         icon={(<SiSequelize />)}
                         text="Sequelize"
                     />
-
-                </div>
+                </InfiniteSlider>
 
             </div>
         </section>
