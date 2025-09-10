@@ -28,7 +28,7 @@ export default function Skills() {
             className="bg-background-2 w-full flex justify-center
             shadow-background-2 shadow-[0_0_20px_15px] py-20"
         >
-            <div className="w-full max-w-7xl flex flex-col items-center gap-5 px-10">
+            <div className="w-full max-w-7xl flex flex-col items-center animate-fade-in-left gap-5 px-10">
 
                 <div 
                     className="w-full max-w-7xl px-5
@@ -38,7 +38,7 @@ export default function Skills() {
                         className="font-bold text-2xl text-highlight ml-20 mb-10
                         max-lg:mx-0"
                     >
-                        Skills principais
+                        Minhas skills
                     </h2>
                 </div>
 

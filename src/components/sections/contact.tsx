@@ -12,7 +12,7 @@ import { MdEmail } from "react-icons/md"
 export default function Contact() {
     return (
         <section id="contact" className="bg-[url(/noise.svg)] w-full flex justify-center py-20 max-md:max-w-screen">
-            <div className="w-full max-w-7xl flex flex-col items-center px-10 max-lg:px-0">
+            <div className="w-full max-w-7xl flex flex-col items-center animate-fade-in-right px-10 max-lg:px-0">
 
                 <div className="w-full px-5
                     max-md:px-0 max-lg:flex max-lg:justify-center"

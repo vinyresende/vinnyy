@@ -15,13 +15,13 @@ export default function Intro() {
             className="bg-[url(/noise.svg)] w-full"
         >
             <div
-                className="max-w-7xl min-h-screen grid grid-cols-2
-                items-center justify-center max-lg:py-50 px-10
+                className="max-w-7xl grid grid-cols-2
+                items-center justify-center max-lg:py-50 py-56 px-10
                 max-lg:grid-cols-1 max-lg:gap-40 mx-auto"
             >
                 <div
-                    className="flex flex-col gap-3 pl-5
-                    max-lg:pl-0"
+                    className="flex flex-col gap-3 pl-5 py-14
+                    animate-fade-in-up will-change-transform max-lg:pl-0"
                 >
 
                     <h1 className="font-bold text-[28px] gap-2">

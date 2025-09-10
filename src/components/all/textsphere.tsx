@@ -25,7 +25,7 @@ export default function TextSphere() {
     ]
 
     const options: TagCloudOptions = {
-        radius: 200,
+        radius: 150,
         initSpeed: "normal",
         maxSpeed: "normal",
         keep: true
@@ -37,7 +37,7 @@ export default function TextSphere() {
 
     return (
         <>
-            <div className="text-sphere text-[12px] text-highlight">
+            <div className="text-sphere text-[12px] text-highlight animate-fade-in">
             </div>
         </>
     )
