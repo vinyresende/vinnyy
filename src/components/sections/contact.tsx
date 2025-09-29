@@ -14,12 +14,13 @@ export default function Contact() {
         <section id="contact" className="bg-[url(/noise.svg)] w-full flex justify-center py-20 max-md:max-w-screen">
             <div className="w-full max-w-7xl flex flex-col items-center animate-fade-in-right px-10 max-lg:px-0">
 
-                <div className="w-full px-5
-                    max-md:px-0 max-lg:flex max-lg:justify-center"
+                <div
+                    className="w-full max-w-7xl px-5
+                    max-lg:flex max-lg:justify-center max-lg:px-0"
                 >
                     <h2
-                        className="font-bold text-highlight text-2xl ml-20 mb-10
-                        max-md:mx-0"
+                        className="font-bold text-2xl text-highlight ml-20 mb-10
+                        max-lg:mx-0"
                     >
                         Contato
                     </h2>

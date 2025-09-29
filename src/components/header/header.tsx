@@ -18,6 +18,7 @@ export default function Header() {
                         >
                             <li><Link href="#intro">Intro</Link></li>
                             <li><Link href="#skills">Minhas skills</Link></li>
+                            <li><Link href="#portfolio">Projetos</Link></li>
                             <li><Link href="#contact">Contato</Link></li>
                         </ul>
                     </nav>

@@ -38,7 +38,7 @@
 	}
 
 	100% {
-		transform: translateX(calc(-300px * 15));
+		transform: translateX(calc(-200px * 15));
 	}
 }
 
