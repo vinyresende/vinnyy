@@ -13,7 +13,7 @@ export default function ProjectCard({ img, title, description, href, icons }: Pr
         <div className="relative bg-background border border-gray-500 max-lg:max-w-xl rounded-lg">
             <img
                 className="rounded-t-lg"
-                alt="Logo GomesXavier"
+                alt={`${title}-img`}
                 src={img}
             />
 

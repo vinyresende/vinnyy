@@ -11,10 +11,6 @@
 	--shadow-neon: 0 0 50px -5px;
 
 	--animate-infinite-slider: infiniteSlider 40s linear infinite;
-	--animate-fade-in-up: fadeInUp .8s ease-out;
-	--animate-fade-in-left: fadeInLeft .8s ease-out;
-	--animate-fade-in-right: fadeInRight .8s ease-out;
-	--animate-fade-in: fadeIn 1s linear;
 }
 
 @layer base {
@@ -39,82 +35,5 @@
 
 	100% {
 		transform: translateX(calc(-200px * 15));
-	}
-}
-
-@keyframes fadeInUp {
-	0% {
-		opacity: 0;
-		transform: translateY(0); /* reduzir problema de scroll no recarregamento */
-	}
-
-	10% {
-		opacity: 0;
-		transform: translateY(250px);
-	}
-
-	70% {
-		opacity: .3;
-	}
-
-	100% {
-		opacity: 1;
-		transform: translatex(0);
-	}
-}
-
-@keyframes fadeInLeft {
-	0% {
-		opacity: 0;
-		transform: translatex(0); /* reduzir problema de scroll no recarregamento */
-	}
-
-	10% {
-		opacity: 0;
-		transform: translatex(-300px);
-	}
-
-	70% {
-		opacity: .3;
-	}
-
-	100% {
-		opacity: 1;
-		transform: translatex(0);
-	}
-}
-
-@keyframes fadeInRight {
-	0% {
-		opacity: 0;
-		transform: translatex(0); /* reduzir problema de scroll no recarregamento */
-	}
-
-	10% {
-		opacity: 0;
-		transform: translatex(300px);
-	}
-
-	70% {
-		opacity: .3;
-	}
-
-	100% {
-		opacity: 1;
-		transform: translatex(0);
-	}
-}
-
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-
-	70% {
-		opacity: .5;
-	}
-
-	100% {
-		opacity: 1;
 	}
 }

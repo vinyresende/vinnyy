@@ -1,6 +1,9 @@
+'use client'
+
 import Link from "next/link"
 import ContactForm from "../forms/contact"
 
+import { motion } from "framer-motion"
 import {
     SiGithub,
     SiDiscord,
@@ -12,7 +15,12 @@ import { MdEmail } from "react-icons/md"
 export default function Contact() {
     return (
         <section id="contact" className="bg-[url(/noise.svg)] w-full flex justify-center py-20 max-md:max-w-screen">
-            <div className="w-full max-w-7xl flex flex-col items-center animate-fade-in-right px-10 max-lg:px-0">
+            <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ ease: "easeInOut" }}
+                className="w-full max-w-7xl flex flex-col items-center px-10 max-lg:px-0"
+            >
 
                 <div
                     className="w-full max-w-7xl px-5
@@ -73,7 +81,7 @@ export default function Contact() {
                     </div>
 
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }

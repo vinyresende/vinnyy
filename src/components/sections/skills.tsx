@@ -1,6 +1,9 @@
+'use client'
+
 import SkillCard from "../all/skillcard"
 import InfiniteSlider from "../all/infiniteslider"
 
+import { motion } from "framer-motion"
 import { IoLogoWordpress } from "react-icons/io"
 import { BiLogoTypescript } from "react-icons/bi"
 import {
@@ -25,12 +28,16 @@ export default function Skills() {
     return (
         <section
             id="skills"
-            className="bg-background-2 w-full flex justify-center
-            shadow-background-2 shadow-[0_0_20px_15px] py-20"
+            className="bg-background-2 w-full flex justify-center py-20"
         >
-            <div className="w-full max-w-7xl flex flex-col items-center animate-fade-in-left gap-5 px-10">
+            <motion.div
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ ease: "easeInOut" }}
+                className="w-full max-w-7xl flex flex-col items-center gap-5 px-10"
+            >
 
-                <div 
+                <div
                     className="w-full max-w-7xl px-5
                     max-lg:flex max-lg:justify-center max-lg:px-0"
                 >
@@ -105,7 +112,7 @@ export default function Skills() {
                     />
                 </InfiniteSlider>
 
-            </div>
+            </motion.div>
         </section>
     )
 }

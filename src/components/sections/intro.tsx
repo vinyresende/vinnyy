@@ -1,7 +1,10 @@
+'use client'
+
 import Link from "next/link"
 import TextSphere from "@/components/all/textsphere"
 import GenericButton from "@/components/all/genericbutton"
 
+import { motion } from "framer-motion"
 import { BiLogoDiscord } from "react-icons/bi"
 
 import {
@@ -19,9 +22,11 @@ export default function Intro() {
                 items-center justify-center max-lg:py-50 py-56 px-10
                 max-lg:grid-cols-1 max-lg:gap-40 mx-auto"
             >
-                <div
-                    className="flex flex-col gap-3 pl-5 py-14
-                    animate-fade-in-up will-change-transform max-lg:pl-0"
+                <motion.div
+                    initial={{ opacity: 0, y: 100 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ ease: "easeInOut" }}
+                    className="flex flex-col gap-3 pl-5 py-14 max-lg:pl-0"
                 >
 
                     <h1 className="font-bold text-[28px] gap-2">
@@ -66,7 +71,7 @@ export default function Intro() {
                         </div>
                     </div>
 
-                </div>
+                </motion.div>
 
                 <div
                     className="flex items-center justify-end pr-5

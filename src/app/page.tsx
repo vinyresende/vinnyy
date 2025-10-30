@@ -7,8 +7,10 @@ export default function Home() {
 	return (
 		<main className="flex flex-col items-center justify-center max-md:max-w-screen">
 			<Intro />
-			<Skills />
-			<Portfolio />
+			<div className="w-full flex flex-col shadow-background-2 shadow-[0_0_20px_15px]">
+				<Skills />
+				<Portfolio />
+			</div>
 			<Contact />
 		</main>
 	)
