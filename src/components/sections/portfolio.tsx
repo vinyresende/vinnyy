@@ -36,7 +36,7 @@ export default function Portfolio() {
     return (
         <section
             id="portfolio"
-            className="bg-background-2 w-full flex justify-center py-20"
+            className="bg-background-2 w-full flex justify-center pb-20"
         >
             <motion.div
                 initial={{ opacity: 0, x: -100 }}
